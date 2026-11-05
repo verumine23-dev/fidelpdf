@@ -341,7 +341,7 @@ private fun Marker(s: MockScope, n: Int, fx: Float, fy: Float) {
 }
 
 @Composable
-private fun BoxScope.Line(widthFraction: Float, color: Color = MockMuted, h: Dp = 6.dp, modifier: Modifier = Modifier) {
+private fun Line(widthFraction: Float, color: Color = MockMuted, h: Dp = 6.dp, modifier: Modifier = Modifier) {
     Box(
         modifier
             .fillMaxWidth(widthFraction)
